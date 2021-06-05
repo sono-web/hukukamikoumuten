@@ -94,7 +94,7 @@ $(function(){
      var target = $(href == "#" || href == "" ? 'html' : href);
      // 移動先取得
 
-     var position = target.offset().top + -50;　/*上に-100ずらしている*/
+     var position = target.offset().top + -100;　/*上に-100ずらしている*/
      // 移動先を数値で取得
 
      $('body,html').animate({scrollTop:position}, speed, 'swing');
